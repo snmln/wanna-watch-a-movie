@@ -5,8 +5,12 @@ import Row from './Row.js';
 function App() {
   return (
     <div className="App">
-      <h1>hello from netflix app.js</h1>
-      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}/>
+      {/*Nav bar*/}
+            {/*Banner*/}
+            {/*Left off at 1:40:32*/}
+
+      <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}
+      isLargeRow/>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
       <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies}/>
