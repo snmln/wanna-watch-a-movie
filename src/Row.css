@@ -1,4 +1,5 @@
 .row {
+  color: white;
 }
 .row__posters {
   display: flex;
